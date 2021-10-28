@@ -18,7 +18,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         LT(_ESC,KC_ESC),  DK_1,    DK_2,     DK_3,    DK_4,    DK_5,    DK_6,        DK_7,    DK_8,     DK_9,    DK_0,     DK_PLUS,  DK_ACUT,   KC_BSPC,  KC_BSPC, KC_MPLY,
         LT(_TAB,KC_TAB),  DK_Q,    DK_W,     DK_E,    DK_R,    DK_T,                 DK_Y,    DK_U,     DK_I,    DK_O,     DK_P,     DK_ARNG,   DK_DIAE,           KC_NO,
         KC_CAPS,          DK_A,    DK_S,     DK_D,    DK_F,    DK_G,                 DK_H,    DK_J,     DK_K,    DK_L,     DK_AE,    DK_OSTR,   DK_QUOT,  KC_ENT,  KC_NO,
-        KC_LSFT,          DK_LABK, DK_Z,     DK_X,    DK_C,    DK_V,    DK_B,        DK_N,    DK_M,     DK_COMM, DK_DOT,   DK_MINS,  KC_RSHIFT, KC_UP,             KC_NO,
+        KC_LSFT,          DK_LABK, DK_Z,     DK_X,    DK_C,    DK_V,    DK_B,        DK_N,    DK_M,     DK_COMM, DK_DOT,   DK_MINS,  KC_RSHIFT,           KC_UP,   KC_NO,
         KC_LCTL,          KC_LALT, KC_LGUI,           KC_SPC,  KC_SPC,               KC_SPC,  KC_SPC,   KC_RGUI, KC_RALT,  _______,  KC_LEFT,   KC_DOWN,  KC_RGHT
     ),
 
@@ -26,7 +26,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TRNS,         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,  KC_TRNS,   KC_TRNS, KC_TRNS,  KC_TRNS,
         KC_TRNS,         KC_BSPC, KC_DEL,  KC_TRNS, KC_TRNS, KC_TRNS,                 KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,  KC_TRNS,   KC_TRNS,           RGB_TOG,
         KC_TRNS,         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                 KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,  KC_TRNS,   KC_TRNS, KC_TRNS,  KC_MNXT,
-        KC_TRNS,         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,  KC_TRNS,   KC_TRNS,           KC_MPRV,
+        KC_TRNS,         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,  KC_TRNS,            KC_TRNS,  KC_MPRV,
         KC_TRNS,         KC_TRNS, KC_TRNS,          KC_TRNS, KC_TRNS,                 KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,  KC_TRNS,   KC_TRNS, KC_TRNS
     ),
 
@@ -34,7 +34,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TRNS,         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS, KC_TRNS,    KC_TRNS, KC_TRNS,  KC_TRNS,
         KC_TRNS,         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                 KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS, KC_TRNS,    KC_TRNS,           ONEPASS,
         KC_TRNS,         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                 KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS, KC_TRNS,    KC_TRNS, KC_TRNS,  SPARK,
-        KC_TRNS,         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS, KC_TRNS,    KC_TRNS,           FORK,
+        KC_TRNS,         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS, KC_TRNS,             KC_TRNS,  FORK,
         KC_TRNS,         KC_TRNS, KC_TRNS,          KC_TRNS, KC_TRNS,                 KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS, KC_TRNS,    KC_TRNS, KC_TRNS
     ),
 };
