@@ -75,25 +75,31 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
         switch(biton32(layer_state)) {
             case _BASE:
                 if (clockwise) {
-                    tap_code(KC_VOLU);
+                    register_code(KC_AUDIO_VOL_UP);
+                    unregister_code(KC_AUDIO_VOL_UP);
                 } else {
-                    tap_code(KC_VOLD);
+                    register_code(KC_AUDIO_VOL_DOWN);
+                    unregister_code(KC_AUDIO_VOL_DOWN);
                 }
                 break;
 
             case _TAB:
                 if (clockwise) {
-                    tap_code(KC_PGDN);
+                    register_code(KC_PGDN);
+                    unregister_code(KC_PGDN);
                 } else {
-                    tap_code(KC_PGUP);
+                    register_code(KC_PGUP);
+                    unregister_code(KC_PGUP);
                 }
                 break;
 
             default:
                 if (clockwise) {
-                    tap_code(KC_VOLU);
+                    register_code(KC_AUDIO_VOL_UP);
+                    unregister_code(KC_AUDIO_VOL_UP);
                 } else {
-                    tap_code(KC_VOLD);
+                    register_code(KC_AUDIO_VOL_DOWN);
+                    unregister_code(KC_AUDIO_VOL_DOWN);
                 }
                 break;
         }
